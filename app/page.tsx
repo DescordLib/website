@@ -25,9 +25,8 @@ export default function Home() {
     <div style={{ textAlign: 'center', width: '100%', height: '100%', paddingTop: '3%' }}>
       <h1 style={headingStyle}>Descord</h1>
       <p style={descriptionStyle}>
-        Descord is a minimal Rust library that provides a simple and efficient way to interact with the Discord API.<br />
-        It requires so little boilerplate compared to other Rust Discord API wrappers, making it incredibly intuitive and easy to use.<br />
-        Its straightforward design ensures developers can quickly integrate Discord functionalities into their applications without the complexity often associated with similar libraries.
+        Descord is a minimal Rust library providing simple and efficient Discord API interaction with minimal boilerplate.<br />
+        Its intuitive design allows developers to quickly integrate Discord functionalities without the usual complexity.
       </p>
       <div style={buttonContainerStyle}>
         <a href="https://docs.rs/descord/latest/descord" className={`${styles.button} ${styles.docsButton}`} target="_blank" rel="noopener noreferrer">
